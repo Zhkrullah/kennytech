@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Landing Page</title>
+
+    <link rel="stylesheet" href="tech.css">
+
+</head>
+<body>
+    <!-- 56 -->
+    
+    <div class="menu-bar">
+        <div class="logo">
+            
+            <img src="logo.jpg" alt="">
+            <a href="#"><span class="logo-text">KennyTech</span></a>
+
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+             <li><a href="#services">Our Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+       
+            
+           
+        </ul>
+    </div>
+   <main>
+     
+    <div class="hero-section">
+
+        <div class="left-hero-section">
+            <h1>Innovative <br> Tech Solutions</h1>
+            <p>We provide cutting-edge technology</p>
+            <p>Solutions to help businesses achieve</p>
+            <p>their goals</p>    
+     
+        </div>
+
+
+        <div class="right-hero-section">
+            <img src="system1.png" alt="">
+        </div>
+    </div>
+      <a href="#services" id="our-services">Explore Our Services</a>
+
+         <!--    <a href="#" class="hero-button">Get Started</a> -->
+
+       <!-- scrow-down arrorw -->
+        <a id="scroll-down" href="#about">
+            &darr;
+        </a>
+
+       
+   </main>
+
+    <section id="about-section">
+
+       <div class="section-container">
+    <h2>About KennyTech</h2>
+    <p>
+          <p>We provide cutting-edge technology
+
+Solutions to help businesses  achieve their goals.</p><br>
+      At <strong>KennyTech</strong>, we don’t just follow trends — we create them. Our mission is to deliver innovative, efficient, and user-friendly tech solutions that empower businesses and individuals across Africa and beyond.
+    </p>
+    <p>
+      Whether it's building responsive websites, developing sleek mobile apps, or offering cutting-edge digital consulting, we combine creativity with technology to bring ideas to life. With a passion for quality and a heart for excellence, KennyTech is here to drive your success in the digital age.
+    </p>
+  </div>
+          
+    
+
+    
+
+        </section>
+
+       <!-- Load AOS & Font Awesome in <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+<section id="services" class="services-section">
+  <div class="container">
+    <h2 data-aos="fade-up">Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>We build fast, responsive websites that work beautifully across all devices.</p>
+        <a href="#contact" class="learn-more-btn">Learn More</a>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Mobile App Design</h3>
+        <p>We design sleek and user-friendly mobile apps tailored to your goals.</p>
+        <a href="#contact" class="learn-more-btn">Learn More</a>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+        <i class="fas fa-lightbulb"></i>
+        <h3>Digital Consulting</h3>
+        <p>We help you choose and use the right tech to grow your business smarter.</p>
+        <a href="#contact" class="learn-more-btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  
+</section>
+
+<!-- AOS Script before </body> -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<!-- contact section -->
+ <section id="contact" class="contact-section">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your full name" required />
+        <small class="error-message" id="nameError"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email address" required />
+        <small class="error-message" id="emailError"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Your message here..." required></textarea>
+        <small class="error-message" id="messageError"></small>
+      </div>
+
+      <button type="submit">Send Message</button>
+      <p class="form-success" id="formSuccess"></p>
+    </form>
+  </div>
+</section>
+
+
+<footer class="site-footer">
+  <div class="container footer-container">
+    <div class="footer-brand">
+      <h3>KennyTech</h3>
+   <p>Solutions to help businesses achieve</p>
+            <p>their goals</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="#" aria-label="Facebook">&#8962;</a>
+      <a href="#" aria-label="Twitter">&#8505;</a>
+      <a href="#" aria-label="Instagram">&#9881; </a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+     <p>Email: <a href="mailto:kennytech@example.com">kennycooldev@gmail.com</a></p>
+     <p>&#9742; Phone: <a href="tel:+2348012345678">+234 817 8214 515</a></p>
+  <p>&#128205; Location: Lagos, Nigeria</p>
+    <p>&copy; 2025 KennyTech. All rights reserved.</p>
+  </div>
+</footer>
+
+
+</body>
+
+
+<script>
+  const contactForm = document.getElementById("contactForm");
+  const nameInput = document.getElementById("name");
+  const emailInput = document.getElementById("email");
+  const messageInput = document.getElementById("message");
+
+  const nameError = document.getElementById("nameError");
+  const emailError = document.getElementById("emailError");
+  const messageError = document.getElementById("messageError");
+  const formSuccess = document.getElementById("formSuccess");
+
+  contactForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    let isValid = true;
+
+    // Name
+    if (nameInput.value.trim().length < 3) {
+      nameError.textContent = "Name must be at least 3 characters.";
+      nameError.style.display = "block";
+      isValid = false;
+    } else {
+      nameError.style.display = "none";
+    }
+
+    // Email
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(emailInput.value)) {
+      emailError.textContent = "Please enter a valid email.";
+      emailError.style.display = "block";
+      isValid = false;
+    } else {
+      emailError.style.display = "none";
+    }
+
+    // Message
+    if (messageInput.value.trim().length < 10) {
+      messageError.textContent = "Message must be at least 10 characters.";
+      messageError.style.display = "block";
+      isValid = false;
+    } else {
+      messageError.style.display = "none";
+    }
+
+    // Success
+    if (isValid) {
+      formSuccess.textContent = "Message sent successfully!";
+      formSuccess.style.display = "block";
+      contactForm.reset();
+    } else {
+      formSuccess.style.display = "none";
+    }
+  });
+</script>
+</html>
